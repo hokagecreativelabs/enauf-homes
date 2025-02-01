@@ -14,7 +14,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="shadow-lg sticky top-0 z-30 bg-white text-black px-6 py-3 flex justify-between items-center transition-all duration-300">
+    <nav className="shadow-lg sticky top-0 z-30 bg-white text-black px-4 md:px-6 py-3 flex justify-between items-center transition-all duration-300">
       {/* Logo */}
       <Link href="/" className="text-2xl font-bold flex items-center">
         Enauf <span className="text-[#FF6700]">Homes</span>

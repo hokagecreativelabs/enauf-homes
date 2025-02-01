@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "title": "1949 Tennessee Avenue",
+      "price": "$38,000.00",
+      "address": "Westland, MI 48185",
+      "image": "/assets/home1.jpg",
+      "propertyType": "Villa",
+      "description": "A luxurious villa surrounded by serene greenery, perfect for families.",
+      "features": {
+        "bedrooms": 7,
+        "bathrooms": 7,
+        "area": "800 Sq Ft"
+      },
+      "agent": {
+        "name": "Jeff Wood",
+        "photo": "https://static.vecteezy.com/system/resources/thumbnails/009/734/564/small/default-avatar-profile-icon-of-social-media-user-vector.jpg"
+      },
+      "likes": 10,
+      "comments": 5
+    },
+    {
+      "id": 2,
+      "title": "2186 Rinehart Road",
+      "price": "$34,000.00",
+      "address": "Minneapolis, MN 55402",
+      "image": "/assets/home2.jpg",
+      "propertyType": "House",
+      "description": "A modern house with a spacious interior and cozy atmosphere.",
+      "features": {
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "area": "280 Sq Ft"
+      },
+      "agent": {
+        "name": "Liana Jhon",
+        "photo": "https://static.vecteezy.com/system/resources/thumbnails/009/734/564/small/default-avatar-profile-icon-of-social-media-user-vector.jpg"
+      },
+      "likes": 8,
+      "comments": 4
+    },
+    {
+      "id": 3,
+      "title": "2186 Rinehart Road",
+      "price": "$34,000.00",
+      "address": "Minneapolis, MN 55402",
+      "image": "/assets/home3.jpg",
+      "propertyType": "House",
+      "description": "A modern house with a spacious interior and cozy atmosphere.",
+      "features": {
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "area": "280 Sq Ft"
+      },
+      "agent": {
+        "name": "Liana Jhon",
+        "photo": "https://static.vecteezy.com/system/resources/thumbnails/009/734/564/small/default-avatar-profile-icon-of-social-media-user-vector.jpg"
+      },
+      "likes": 8,
+      "comments": 4
+    },
+    {
+      "id": 4,
+      "title": "2186 Rinehart Road",
+      "price": "$34,000.00",
+      "address": "Minneapolis, MN 55402",
+      "image": "/assets/home1.jpg",
+      "propertyType": "House",
+      "description": "A modern house with a spacious interior and cozy atmosphere.",
+      "features": {
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "area": "280 Sq Ft"
+      },
+      "agent": {
+        "name": "Liana Jhon",
+        "photo": "https://static.vecteezy.com/system/resources/thumbnails/009/734/564/small/default-avatar-profile-icon-of-social-media-user-vector.jpg"
+      },
+      "likes": 8,
+      "comments": 4
+    }
+  ]
+  

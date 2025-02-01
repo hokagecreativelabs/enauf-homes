@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-body-img {
+    background-image: url('/assets/home3.jpg'); /* Update the path accordingly */
+  }
