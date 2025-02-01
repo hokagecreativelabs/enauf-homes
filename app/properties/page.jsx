@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { FaThLarge, FaList } from "react-icons/fa";
 import properties from "../../data/properties.json";
 import PropertyCard from "@/components/PrpertyCard";
+import RealEstateForm from "@/components/BookingForm";
 
 export default function PropertiesPage() {
   const [sortOrder, setSortOrder] = useState("lowToHigh");
@@ -17,9 +18,9 @@ export default function PropertiesPage() {
 
   return (
     <div>
-      {/* Banner */}
-      <div className="shadow-sm relative bg-contain bg-no-repeat bg-center h-64 flex items-center justify-center text-white" style={{ backgroundImage: "url('/assets/rent.jpg')" }}>
-        {/* <h1 className="text-4xl font-bold">Find Your Dream Property</h1> */}
+      {/* Booking Form */}
+      <div className="max-w-6xl mx-auto py-6 px-4">
+        <RealEstateForm />
       </div>
       
       {/* Filters */}
