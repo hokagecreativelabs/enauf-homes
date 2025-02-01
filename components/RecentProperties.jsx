@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import "swiper/css";
 import { motion } from "framer-motion";
+import Link from "next/link"; // Import Link from Next.js
 
 const RecentProperties = () => {
   const swiperRef = useRef(null);
@@ -35,7 +36,11 @@ const RecentProperties = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <PropertyCard property={property} />
+                <Link legacyBehavior href={`/properties/${property.id}`}>
+                  <a>
+                    <PropertyCard property={property} />
+                  </a>
+                </Link>
               </motion.div>
             </SwiperSlide>
           ))}
@@ -82,7 +87,11 @@ const RecentProperties = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <PropertyCard property={property} />
+            <Link legacyBehavior href={`/properties/${property.id}`}>
+              <a>
+                <PropertyCard property={property} />
+              </a>
+            </Link>
           </motion.div>
         ))}
       </div>

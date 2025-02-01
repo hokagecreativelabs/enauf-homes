@@ -5,6 +5,7 @@ import { FaThLarge, FaList } from "react-icons/fa";
 import properties from "../../data/properties.json";
 import PropertyCard from "@/components/PrpertyCard";
 import RealEstateForm from "@/components/BookingForm";
+import Link from "next/link"; // Import Link
 
 export default function PropertiesPage() {
   const [sortOrder, setSortOrder] = useState("lowToHigh");
@@ -54,7 +55,9 @@ export default function PropertiesPage() {
         className={`max-w-9xl mx-auto px-4 ${layout === "grid" ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" : "space-y-6"}`}
       >
         {sortedProperties.map((property) => (
-          <PropertyCard key={property.id} property={property} layout={layout} />
+          <Link key={property.id} href={`/properties/${property.id}`}> {/* Remove the extra <a> tag */}
+            <PropertyCard property={property} layout={layout} />
+          </Link>
         ))}
       </motion.div>
     </div>
